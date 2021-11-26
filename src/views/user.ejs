@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es">
+    <%- include('./partials/head') %>
+    <%- include('./partials/header') %>
+<body class="<%= locals.backgroundColour ? backgroundColour: null %>">
+    <div class="container-fluid w-50 form-control text-center">
+        <p><b> <%= nombre %>  </b>  </p>
+        <a href="/users/reset" class="btn btn-danger">Olvidar el color</a>
+    </div>
+    
+</body>
+</html>
